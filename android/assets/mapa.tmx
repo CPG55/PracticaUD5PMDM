@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="1.0.3" orientation="orthogonal" renderorder="right-down" width="60" height="60" tilewidth="32" tileheight="32" nextobjectid="1">
+ <tileset firstgid="1" name="Tileset" tilewidth="32" tileheight="32" tilecount="4096" columns="64">
+  <image source="Tileset.png" width="2048" height="2048"/>
+ </tileset>
+ <layer name="Suelo" width="60" height="60">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3YKw7DQBBEQaMg35/5msFGBgFR/NFOK7MFSkv7aYy8rcuyAQAAAAAAAPDh/cpvqGw9pLdUdXZv/tbasflXa6fms60dmq+2/nPz3dbZetO7K5vTeyub0zv1jmtO76vsTm/SO645vaWyOb1B77hW33Nf7tub+/Y20307tB7bz7wdWmf7h3HlvumtT+2DTJahQDgAAA==
+  </data>
+ </layer>
+ <layer name="Decoracion" width="60" height="60">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3R2wmAMBBFwfXxZaoSm7UNtRnLMMEaTMDMwP3f5UQAAAAAAAAAQD/2ufUFdd2d/Fu6HkvEmXct/+9cug4pYsybUh+d1/R23VLrS+rpoSsAAAAA8K0HwxtJlUA4AAA=
+  </data>
+ </layer>
+ <layer name="Obstaculos" width="60" height="60">
+  <properties>
+   <property name="obstaculo" value="true"/>
+  </properties>
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3XQQ6CQAwAwHr0AJ79g77Sl6ofUW+GRGF1CbCdSTZZCCFt2m0gAgAAAAAAAICMTl3EuVs6ivllzfMyyHl4vXavfD6tDPUkt1/P7/FQPxYooQfZum/fGbt92f13zgZr0Gof+j9oU626brXvtxo3ZHTtI27Pde+n7Wu8Y+79mLEZ9c8Ma3H+tZhTFiW1m/rskv3wALQrLrJAOAAA
+  </data>
+ </layer>
+ <layer name="Agujeros" width="60" height="60">
+  <properties>
+   <property name="agujero" value="true"/>
+  </properties>
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3UwQkAIAwDwP5c3bF9OIAoiJbeTZAS0ggAAAAAAAAAAAAAONPb6wRAVf5PPTqHHHa2mmXXt3JmuZ9p1devfQ41AKJyQDgAAA==
+  </data>
+ </layer>
+ <layer name="Altura" width="60" height="60">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2X0W3DIBCG/Zi2NJPYU3SPdgF7pUhJX9shOkZ3cHcoSEHCp2AgOZzj8n/SScSOLT7uDuGuAwAAAAAAAAAAAAAAALAFvem6wdx7FtsxWtfp7PwI3t53It5a/Z2vq2nqTf21MJpl9BF/Ld7UL+Xd+v7WB7mLeY/k+tSw72iWzkPweyKuLr5sfDfsG+aMeg/BPe852/hr2HcOcke9NXl6ZrN0DuOS59vr8nn6Wzre91JoyCcAa1zbv797/rkAUEKNGjw88b/zFmqcj6U5OvyZaovzMfXfej3Cc/LaOeNnV3Y9RMr+7PPK9V0rsXZDUt+1NeZ/zzVJ9a2UOuQip28pa/mJ3Su9XotYXqX34bVwfffRunfr1cKalfRrSV1LcufurdznJK2BVp7P8ZI55ngHxzh2PzZHz9H268nG5z5vzPGO2uMUqT3qljNHK+eVd7uXfGTuJ95Jw/6jwaGEknrM/a+kGteez38Cfml6QDgAAA==
+  </data>
+ </layer>
+</map>

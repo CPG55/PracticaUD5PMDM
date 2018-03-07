@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="60" height="60" tilewidth="32" tileheight="32" nextobjectid="1">
+ <tileset firstgid="1" name="Tileset" tilewidth="32" tileheight="32" tilecount="4096" columns="64">
+  <image source="Tileset.png" width="2048" height="2048"/>
+ </tileset>
+ <layer name="Suelo" width="60" height="60">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3DMQkAAAwDsAqY/69e62MkkF5SVVVVVVVVVVVVVVVVVfXVAZh2LDJAOAAA
+  </data>
+ </layer>
+ <layer name="Decoracion" width="60" height="60">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3aMQ6CMBSH8bdQB1gYxZOJx/FkDCZeQbyMDrrAS16XpuTf75d0YeqXNNDQmsHz6sxWZ7y72jMr45zMJmdcUu2ZlUEvvUqu367ZGTfRXmh79Gb3zXj2tWdVzuK0ec9U0EuvEnrpVXIa9t/fNNSeFQAAAAAAQNs4M9H+J0cvvUqiXrU7WFGv2p2V1nqjMxO13khrvSp3sNTeu5Hcdaqyv87tVdmPRL3jb1230vun0pv73lXpzUUvvUq4kwQcywcAWSfgQDgAAA==
+  </data>
+ </layer>
+ <layer name="Obstaculos" width="60" height="60">
+  <properties>
+   <property name="obstaculo" value="true"/>
+  </properties>
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3ZwQmEMBAFUEFBYfs/yPakVdiHBy8De1lRjJO8V8EPM8mEpOsA2rb2pRP8L1NWnqEnqE3saf39TrEu46dcDuC85cK5ug335chmSnbWmZ+/Wp9XV/Y+AAAAZFPj20iNa4pqXx9wsNcB3sPfL5n5+y2dgDPiHVjt8pvD/Pw2PEvJbQfp5INyQDgAAA==
+  </data>
+ </layer>
+ <layer name="Agujeros" width="60" height="60">
+  <properties>
+   <property name="agujero" value="true"/>
+  </properties>
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3XsQ0AIAwDMDZe52zEBwxBqJV9QdQl6RjQ05q/E9TjZgAAGXYVAHArvRvsEAAAADrx5wKQlOoV/QQA8EalnVUpKxwb3BPPTkA4AAA=
+  </data>
+ </layer>
+ <layer name="Altura" width="60" height="60">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3asQ3AIBADwJdgiZDJQnZiZlKwQoTE30nu7d4RAAAAkM8ouxsAAAAAAAAAAEAuJ352rhrRVu66u83/nm9jX3kT7IUTTHRwIk5AOAAA
+  </data>
+ </layer>
+</map>
